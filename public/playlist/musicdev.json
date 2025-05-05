@@ -1,122 +1,50 @@
 [
   {
-    "title": "No quiero cambiar",
-    "artist": "ManzDev",
-    "slug": "no-quiero-cambiar",
+    "title": "María de la Soledad - Rock",
+    "artist": "MumDay Rock",
+    "slug": "maria-de-la-soledad-rock",
     "album": "MusicDev",
     "date": "2024-05-01T00:00:00",
     "duration": "01:50"
   },
   {
-    "title": "Yo ya soy inmortal",
-    "artist": "ManzDev",
-    "slug": "yo-ya-soy-inmortal",
+    "title": "María de la Soledad - Rock 2",
+    "artist": "MumDay Rock",
+    "slug": "maria-de-la-soledad-rock-2",
     "album": "MusicDev",
     "date": "2024-05-01T00:00:00",
-    "duration": "03:23"
+    "duration": "01:50"
   },
   {
-    "title": "Resolví el problema",
-    "artist": "ManzDev",
-    "slug": "resolvi-el-problema",
+    "title": "María de la Soledad - Metal",
+    "artist": "MumDay Metal",
+    "slug": "maria-de-la-soledad-metal",
     "album": "MusicDev",
     "date": "2024-05-01T00:00:00",
-    "duration": "01:58"
+    "duration": "01:50"
   },
   {
-    "title": "Soy programador Freelance",
-    "artist": "ManzDev",
-    "slug": "soy-programador-freelance",
+    "title": "María de la Soledad - Rap",
+    "artist": "MumDay Rap",
+    "slug": "maria-de-la-soledad-rap-espacial",
     "album": "MusicDev",
     "date": "2024-05-01T00:00:00",
-    "duration": "04:03"
+    "duration": "01:50"
   },
   {
-    "title": "El último humano",
-    "artist": "ManzDev",
-    "slug": "el-ultimo-humano",
+    "title": "María de la Soledad - Rap espacial",
+    "artist": "MumDay Rap",
+    "slug": "maria-de-la-soledad-rap-espacial",
     "album": "MusicDev",
     "date": "2024-05-01T00:00:00",
-    "duration": "02:55"
+    "duration": "01:50"
   },
   {
-    "title": "En mi local funcionaba",
-    "artist": "ManzDev",
-    "slug": "en-mi-local-funcionaba",
+    "title": "María de la Soledad - Disco",
+    "artist": "MumDay Rap",
+    "slug": "maria-de-la-soledad-disco",
     "album": "MusicDev",
     "date": "2024-05-01T00:00:00",
-    "duration": "02:54"
-  },
-  {
-    "title": "Soy backend",
-    "artist": "ManzDev",
-    "slug": "soy-backend",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "02:14"
-  },
-  {
-    "title": "Tengo un gran problema",
-    "artist": "ManzDev",
-    "slug": "tengo-un-gran-problema",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "02:27"
-  },
-  {
-    "title": "El Guardián del Hipertexto",
-    "artist": "ManzDev",
-    "slug": "el-guardian-del-hipertexto",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "04:16"
-  },
-  {
-    "title": "El navegador olvidado",
-    "artist": "ManzDev",
-    "slug": "el-navegador-olvidado",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "01:44"
-  },
-  {
-    "title": "Amor imposible",
-    "artist": "ManzDev",
-    "slug": "amor-imposible",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "02:41"
-  },
-  {
-    "title": "He desplegado a producción",
-    "artist": "ManzDev",
-    "slug": "he-desplegado-a-produccion",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "03:09"
-  },
-  {
-    "title": "Descargué Internet entero",
-    "artist": "ManzDev",
-    "slug": "descargue-internet-entero",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "02:12"
-  },
-  {
-    "title": "Ha funcionado",
-    "artist": "ManzDev",
-    "slug": "ha-funcionado",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "02:41"
-  },
-  {
-    "title": "No quiero cambiar (Extended Version)",
-    "artist": "ManzDev",
-    "slug": "no-quiero-cambiar-extended",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "04:22"
+    "duration": "01:50"
   }
 ]

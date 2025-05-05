@@ -1,0 +1,26 @@
+[
+  {
+    "title": "María de la Soledad - Rock",
+    "artist": "MumDay Rock",
+    "slug": "maria-de-la-soledad-rock",
+    "album": "MusicDev",
+    "date": "2024-05-01T00:00:00",
+    "duration": "01:50"
+  },
+  {
+    "title": "María de la Soledad - Rock 2",
+    "artist": "MumDay Rock",
+    "slug": "maria-de-la-soledad-rock-2",
+    "album": "MusicDev",
+    "date": "2024-05-01T00:00:00",
+    "duration": "01:50"
+  },
+  {
+    "title": "María de la Soledad - Metal",
+    "artist": "MumDay Metal",
+    "slug": "maria-de-la-soledad-metal",
+    "album": "MusicDev",
+    "date": "2024-05-01T00:00:00",
+    "duration": "01:50"
+  }
+]

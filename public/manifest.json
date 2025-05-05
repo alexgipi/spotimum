@@ -1,7 +1,7 @@
 {
-  "name": "Music Manz Player",
+  "name": "Sptomum Player",
   "short_name": "Music Player",
-  "description": "Music Manz Player - Manz.dev",
+  "description": "Spotimum Player",
   "dir": "ltr",
   "start_url": "/player?utm_source=web_app",
   "scope": "/player",

@@ -68,6 +68,7 @@ import BalloonButton from "@/components/BalloonButton.astro";
               box-shadow:
                 0 4px 10px #0008,
                 0 0 20px #000a;
+                object-fit: cover;
             }
 
             & .avatar {
@@ -75,7 +76,7 @@ import BalloonButton from "@/components/BalloonButton.astro";
 
               width: var(--size);
               height: var(--size);
-              background-image: url("/player/manzdev.png");
+              background-image: url("/player/MumDay.png");
               background-size: cover;
               border-radius: 50%;
             }
@@ -130,7 +131,7 @@ import BalloonButton from "@/components/BalloonButton.astro";
       const time = `${min} min `;
       this.shadowRoot.querySelector("img.cover").src = `/player/playlist/${slug}.webp`;
       this.shadowRoot.querySelector("h1").textContent = title;
-      this.shadowRoot.querySelector(".info-subtitle").textContent = `ManzDev · ${total} canciones,`;
+      this.shadowRoot.querySelector(".info-subtitle").textContent = `MumDay · ${total} canciones,`;
       this.shadowRoot.querySelector(".total-duration").textContent = `${time} de duración aproximadamente`;
     }
 
@@ -152,24 +153,18 @@ import BalloonButton from "@/components/BalloonButton.astro";
               <balloon-button disabled><slot name="right"></slot></balloon-button>
             </nav>
             <div class="main">
-              <balloon-button class="large" href="https://music.manz.dev/">
-                <slot name="download"></slot> Visitar music.manz.dev
-              </balloon-button>
-              <balloon-button class="large" href="https://github.com/manzdev/spotimanz">
-                <slot name="star"></slot> GitHub
-              </balloon-button>
+              
               <balloon-button disabled><slot name="bell"></slot></balloon-button>
-              <balloon-button class="avatar" href="https://manz.dev/"></balloon-button>
             </div>
           </div>
           <div class="data">
-            <img class="cover" src="/player/playlist/musicdev.webp" alt="ManzDev">
+            <img class="cover" src="/player/playlist/maria-de-la-soledad.webp" alt="MumDay">
             <div class="info">
               <strong>Lista</strong>
-              <h1>MusicDev</h1>
+              <h1>Maria de la Soledad</h1>
               <div class="row">
                 <div class="avatar"></div>
-                <span class="info-subtitle">ManzDev · 15 canciones,</span>
+                <span class="info-subtitle">MumDay · 15 canciones,</span>
                 <span class="total-duration">42 min de duración aproximadamente</span>
               </div>
             </div>

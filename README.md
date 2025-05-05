@@ -1,7 +1,7 @@
 # Music Manz Player
 *a.k.a. SpotiManz*
 
-**Music Manz Player** es un clon de la UI de Spotify, construido en Astro utilizando CSS y Javascript vanilla y emitido en directo en [mi canal de Twitch](https://twitch.tv/ManzDev) y resubido a [mi canal de YouTube](https://www.youtube.com/playlist?list=PLx5xbrpW6nXiPRXklsQKiDESH_3tJlLWK).
+**Music Manz Player** es un clon de la UI de Spotify, construido en Astro utilizando CSS y Javascript vanilla y emitido en directo en [mi canal de Twitch](https://twitch.tv/MumDay) y resubido a [mi canal de YouTube](https://www.youtube.com/playlist?list=PLx5xbrpW6nXiPRXklsQKiDESH_3tJlLWK).
 
 ![Music Manz Player](music-manz-player.webp)
 ![Music Manz Player (Song)](music-manz-song.webp)
