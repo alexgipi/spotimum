@@ -76,7 +76,7 @@ const artist = "MumDay";
 
     titleTag.textContent = title;
     artistTag.textContent = artist;
-    imageTag.src = `/player/playlist/${album.toLowerCase()}/${slug}.webp`;
+    imageTag.src = `/playlist/${album.toLowerCase()}/${slug}.webp`;
     imageTag.alt = title;
     document.body.style.setProperty("--song-image", `url(${imageTag.src})`);
 
@@ -86,7 +86,7 @@ const artist = "MumDay";
 
 <div class="song-info-container">
   <div class="avatar-song">
-    <img src="/player/playlist/musicdev/no-quiero-cambiar.webp" alt="">
+    <img src="/playlist/musicdev/no-quiero-cambiar.webp" alt="">
   </div>
   <p class="title">{title}</p>
   <p class="artist">{artist}</p>

@@ -5,7 +5,7 @@ export class MusicList {
 
   async get(slug) {
     if (!this.playLists[slug]) {
-      const playList = await fetch(`/player/playlist/${slug}.json`).then(response => response.json());
+      const playList = await fetch(`/playlist/${slug}.json`).then(response => response.json());
       this.playLists[slug] = playList;
       return playList;
     }

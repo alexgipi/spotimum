@@ -3,8 +3,8 @@
   "short_name": "Music Player",
   "description": "Spotimum Player",
   "dir": "ltr",
-  "start_url": "/player?utm_source=web_app",
-  "scope": "/player",
+  "start_url": "?utm_source=web_app",
+  "scope": "",
   "lang": "es",
   "display": "standalone",
   "orientation": "portrait",
@@ -12,55 +12,55 @@
   "theme_color": "#ed06c0",
   "icons": [
     {
-      "src": "/player/manifest/icon-32x32.png",
+      "src": "/manifest/icon-32x32.png",
       "sizes": "32x32",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/player/manifest/icon-72x72.png",
+      "src": "/manifest/icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/player/manifest/icon-96x96.png",
+      "src": "/manifest/icon-96x96.png",
       "sizes": "96x96",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/player/manifest/icon-128x128.png",
+      "src": "/manifest/icon-128x128.png",
       "sizes": "128x128",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/player/manifest/icon-144x144.png",
+      "src": "/manifest/icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/player/manifest/icon-152x152.png",
+      "src": "/manifest/icon-152x152.png",
       "sizes": "152x152",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/player/manifest/icon-192x192.png",
+      "src": "/manifest/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/player/manifest/icon-384x384.png",
+      "src": "/manifest/icon-384x384.png",
       "sizes": "384x384",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/player/manifest/icon-512x512.png",
+      "src": "/manifest/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"

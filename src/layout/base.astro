@@ -7,9 +7,9 @@ const { title } = Astro.props;
   @font-face {
     font-family: "Open Sans";
     src:
-      url("/player/fonts/open-sans.woff2") format("woff2"),
-      url("/player/fonts/open-sans.woff") format("woff"),
-      url("/player/fonts/open-sans.ttf") format("truetype");
+      url("/fonts/open-sans.woff2") format("woff2"),
+      url("/fonts/open-sans.woff") format("woff"),
+      url("/fonts/open-sans.ttf") format("truetype");
   }
 
   :root {
@@ -50,7 +50,7 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{ title }</title>
-    <link rel="manifest" href="/player/manifest.json">
+    <link rel="manifest" href="/manifest.json">
 	</head>
 	<body>
 		<slot></slot>
@@ -60,6 +60,6 @@ const { title } = Astro.props;
 
 <script>
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/player/sw.js')
+    navigator.serviceWorker.register('/sw.js')
   })
 </script>

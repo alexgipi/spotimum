@@ -8,7 +8,7 @@
 
 El objetivo de este proyecto es aprender a utilizar Astro, Javascript vanilla y CSS vanilla con un proyecto real, con canciones que hicimos nosotros mismos utilizando Suno, a raiz del proyecto [music.manz.dev](https://music.manz.dev).
 
-- 🌎 **URL**: [https://music.manz.dev/player](https://music.manz.dev/player)
+- 🌎 **URL**: [https://music.manz.dev](https://music.manz.dev)
 - 🌎 **Proyecto original**: [https://music.manz.dev/](https://music.manz.dev/)
 - 🌎 **Mis redes**: [https://links.manz.dev/](https://links.manz.dev/)
 
@@ -37,4 +37,4 @@ El objetivo de este proyecto es aprender a utilizar Astro, Javascript vanilla y 
 - [X] Implementar el repeat (loop canción actual)
 - [X] Fetch a la lista concreta y cambiar la lista de canciones
 - [X] Implementar card de la portada
-- [X] Revisar rutas para que apunten a `/player`
+- [X] Revisar rutas para que apunten a ``
