@@ -1,34 +1,34 @@
 [
   {
-    "title": "Un grito al sol por ti",
-    "artist": "MumDay Rock Metal",
-    "slug": "un-grito-al-sol-por-ti",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
-    "duration": "01:50"
-  },
-  {
     "title": "En tus brazos aprendimos",
     "artist": "MumDay Balada",
     "slug": "en-tus-brazos-aprendimos",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
+    "album": "MusicDev2",
+    "date": "2025-05-04T00:00:00",
+    "duration": "01:50"
+  },
+  {
+    "title": "Un grito al sol por ti",
+    "artist": "MumDay Rock Metal",
+    "slug": "un-grito-al-sol-por-ti",
+    "album": "MusicDev2",
+    "date": "2025-05-04T00:00:00",
     "duration": "01:50"
   },
   {
     "title": "En tus brazos aprendimos (Metal)",
     "artist": "MumDay Metal",
     "slug": "en-tus-brazos-aprendimos-metal",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
+    "album": "MusicDev2",
+    "date": "2025-05-04T00:00:00",
     "duration": "01:50"
   },
   {
     "title": "Nos enseñaste a volar (Pop)",
     "artist": "MumDay Metal",
-    "slug": "en-tus-brazos-aprendimos-metal",
-    "album": "MusicDev",
-    "date": "2024-05-01T00:00:00",
+    "slug": "nos-enseñaste-a-volar",
+    "album": "MusicDev2",
+    "date": "2025-05-04T00:00:00",
     "duration": "01:50"
   }
 ]

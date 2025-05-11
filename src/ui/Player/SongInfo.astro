@@ -1,11 +1,12 @@
 ---
-const title = "No quiero cambiar";
+const title = "Feliz dia de la madre";
 const artist = "MumDay";
 ---
 
 <style>
   .song-info-container {
     /* min-width: 350px; */
+    gap: 10px 25px;
     height: 100%;
 
     display: grid;
@@ -22,10 +23,13 @@ const artist = "MumDay";
       height: var(--size);
       display: grid;
       place-items: center;
+      overflow: hidden;
+      border-radius: 10px;
 
       & img {
-        width: 85%;
-        height: 85%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         border-radius: 10px;
       }
     }
