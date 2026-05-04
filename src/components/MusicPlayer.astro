@@ -5,10 +5,10 @@
   import { MusicPlayer } from "/modules/MusicPlayer.js";
 
   const getURLData = () => {
-    const anchor = new URL(location.href).hash.toLowerCase().substring(1) || "musicdev-0";
+    const anchor = new URL(location.href).hash.toLowerCase().substring(1) || "2026";
     const [playlistName, id] = anchor.split("-");
     return {
-      playlistName: playlistName ?? "musicdev",
+      playlistName: playlistName ?? "2026",
       id: Number(id) ?? 0
     }
   }
