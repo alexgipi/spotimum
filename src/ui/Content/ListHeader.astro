@@ -126,13 +126,19 @@ import BalloonButton from "@/components/BalloonButton.astro";
       const total = songs.length;
       const duration = songs
         .map(song => convertToSeconds(song.duration))
-        .reduce((first, acc) => first + acc, 0);
-      const [min] = formatTime(duration).split(":");
-      const time = `${min} min `;
+        .filter(v => !Number.isNaN(v))
+        .reduce((acc, v) => acc + v, 0);
+
+      if (!duration) {
+        this.shadowRoot.querySelector(".total-duration").textContent = "Disponibles próximamente";
+      } else {
+        const [min] = formatTime(duration).split(":");
+        this.shadowRoot.querySelector(".total-duration").textContent = `${min} min de duración aproximadamente`;
+      }
+
       this.shadowRoot.querySelector("img.cover").src = `/playlist/${slug}.webp`;
       this.shadowRoot.querySelector("h1").textContent = title;
       this.shadowRoot.querySelector(".info-subtitle").textContent = `MumDay · ${total} canciones,`;
-      this.shadowRoot.querySelector(".total-duration").textContent = `${time} de duración aproximadamente`;
     }
 
     connectedCallback() {

@@ -1,4 +1,5 @@
 [
-  { "slug": "musicdev", "title": "María de la Soledad", "subtitle": "Lista - Mª de la Soledad", "pinned": true, "color": "#f007c3" },
+  { "slug": "2026", "title": "Dia de la madre 2026", "subtitle": "Próximamente", "pinned": true, "color": "#e91e8c" },
+  { "slug": "musicdev", "title": "María de la Soledad", "subtitle": "Lista - Mª de la Soledad", "pinned": false, "color": "#f007c3" },
   { "slug": "musicdev2", "title": "Un grito al sol Sole madre", "subtitle": "Lista - Sole madre", "pinned": false, "color": "#9708ef" }
 ]
