@@ -23,7 +23,7 @@ export class MusicPlayer {
   musicList = new MusicList();
   globalVolume = 1;
 
-  constructor(playlistName = "musicdev", id = 1) {
+  constructor(playlistName = "2026", id = 1) {
     this.musicList.get(playlistName).then(songs => {
 
       if ((id > songs.length) || (id < 1) || (isNaN(Number(id)))) {

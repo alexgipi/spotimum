@@ -1,7 +1,7 @@
 export class MusicList {
 
   playLists = {};
-  currentId = "musicdev";
+  currentId = "dia-de-la-madre-2026";
 
   async get(slug) {
     if (!this.playLists[slug]) {
