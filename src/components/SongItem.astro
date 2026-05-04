@@ -57,6 +57,10 @@
           align-items: center;
           gap: 1.5rem;
 
+          &.blurred {
+            filter: blur(8px);
+          }
+
           & img {
             --size: 64px;
 
@@ -115,7 +119,7 @@
         <style>${SongItem.styles}</style>
         <div class="row-item" data-id=${this.index}>
           <div class="num">${this.index + 1}</div>
-          <div class="title-container">
+          <div class="${this.date === "Próximamente" ? "title-container blurred" : "title-container"}">
             <img src=${this.thumb} alt=${this.title}>
             <div class="group">
               <div>${this.title}</div>
@@ -123,7 +127,7 @@
             </div>
           </div>
           <div>${this.album}</div>
-          <div>${this.date.substring(0, 10)}</div>
+          <div>${this.date === "Próximamente" ? "Próximamente" : this.date.substring(0, 10)}</div>
           <div>${this.duration}</div>
           <a class="icon" href="#${this.album.toLowerCase()}-${this.index+1}"><img src="/icons/link.svg"></a>
         </div>
