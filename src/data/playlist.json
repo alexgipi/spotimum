@@ -1,5 +1,5 @@
 [
-  { "slug": "2026", "title": "Dia de la madre 2026", "subtitle": "Próximamente", "pinned": true, "color": "#e91e8c" },
+  { "slug": "2026", "title": "Dia de la madre 2026", "artist":"Hola", "subtitle": "Ya disponible", "pinned": true, "color": "#e91e8c", "avatar": "http://localhost:4322/playlist/dia%20de%20la%20madre%202026.webp" },
   { "slug": "musicdev", "title": "María de la Soledad", "subtitle": "Lista - Mª de la Soledad", "pinned": false, "color": "#f007c3" },
   { "slug": "musicdev2", "title": "Un grito al sol Sole madre", "subtitle": "Lista - Sole madre", "pinned": false, "color": "#9708ef" }
 ]

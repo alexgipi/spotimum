@@ -138,7 +138,8 @@ import BalloonButton from "@/components/BalloonButton.astro";
 
       this.shadowRoot.querySelector("img.cover").src = `/playlist/${slug}.webp`;
       this.shadowRoot.querySelector("h1").textContent = title;
-      this.shadowRoot.querySelector(".info-subtitle").textContent = `MumDay · ${total} canciones,`;
+      this.shadowRoot.querySelector(".info-subtitle").textContent = `· ${total} canciones,`;
+      this.shadowRoot.querySelector(".info .avatar").style.backgroundImage = `url('/playlist/${slug}.webp')`;
     }
 
     connectedCallback() {
@@ -170,7 +171,7 @@ import BalloonButton from "@/components/BalloonButton.astro";
               <h1>Maria de la Soledad</h1>
               <div class="row">
                 <div class="avatar"></div>
-                <span class="info-subtitle">MumDay · 15 canciones,</span>
+                <span class="info-subtitle">· 15 canciones,</span>
                 <span class="total-duration">42 min de duración aproximadamente</span>
               </div>
             </div>
